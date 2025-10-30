@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <img src="./Institut_Teknologi_Tangerang_Selatan.png" class="header-logo" alt="" srcset="">
+            <div class="header-text">
+                Institut Teknologi Tangerang Selatan
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="form-wrapper">
+            <h2>Form Pendaftaran</h2>
+            <form class="registration-form" id="formRegistrasiNilai" >
+                <div class="input-group">
+                    <label for="nama">Nama Depan</label>
+                    <input type="text" id="firtsname" name="firtsname" placeholder="Masukkan nama depan" required>
+                </div>
+                <div class="input-group">
+                    <label for="lastname">Nama Belakang</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Nama Belakang" required>
+                </div>     
+                <div class="input-group">
+                    <label for="nilaiangka">Nilai Angka</label>
+                    <input type="number" max="1000" id="nilaiangka" name="nilaiangka" placeholder="Nilai Angka" required>
+                </div>               
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js" ></script>
+</body>
+</html>
